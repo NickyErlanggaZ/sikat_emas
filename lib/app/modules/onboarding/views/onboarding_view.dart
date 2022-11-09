@@ -61,7 +61,7 @@ class OnboardingView extends GetView<OnboardingController> {
                       bottom: 20,
                       child: ElevatedButton(
                         onPressed: () {
-                          Get.toNamed(Routes.HOME);
+                          Get.toNamed(Routes.LOGIN_MENU);
                         },
                         child: const Text("Lewati"),
                       ))
